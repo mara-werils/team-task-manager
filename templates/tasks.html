@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}Tasks{% endblock %}
+
+{% block content %}
+<h2 class="text-center">Your Tasks</h2>
+<ul id="tasks-list" class="list-group mt-4">
+    <!-- Задачи будут добавлены здесь с помощью JavaScript -->
+</ul>
+
+<div class="card mt-5">
+    <div class="card-body">
+        <h3>Create New Task</h3>
+        <form id="task-form">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" id="title" name="title" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea id="description" name="description" class="form-control"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Create Task</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

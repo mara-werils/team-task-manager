@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+.jumbotron {
+    background-color: #007bff;
+    color: white;
+}
+.list-group-item {
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #333;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    padding: 2em;
+    max-width: 800px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+form {
+    margin-top: 1em;
+}
+
+form input, form textarea {
+    margin-bottom: 1em;
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+#signup-message, #login-message {
+    margin-top: 1em;
+    color: red;
+}
+
+#tasks-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#tasks-list li {
+    background-color: white;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+}
